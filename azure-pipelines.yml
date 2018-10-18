@@ -23,4 +23,4 @@ steps:
     WebAppName: 'node-react-2'
     Package: '$(System.DefaultWorkingDirectory)/build'
     GenerateWebConfig: true
-    WebConfigParameters: '-Handler iisnode -NodeStartFile src/app.js -appType node'
+    WebConfigParameters: '-Handler iisnode -NodeStartFile app.js -appType node'
