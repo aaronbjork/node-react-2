@@ -19,7 +19,7 @@ steps:
 
 - task: AzureRmWebAppDeployment@3
   inputs:
-    azureSubscription: 'tgsc-react connection'
+    azureSubscription: 'dev-resources-connect'
     WebAppName: 'node-react-2'
     Package: '$(System.DefaultWorkingDirectory)/build'
     GenerateWebConfig: true
