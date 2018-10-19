@@ -7,19 +7,19 @@ class Scorecard extends Component {
       <div className="Scorecard">
         {this.state.greeting} {this.props.name}!
         <br/>
-        <button onClick={this.infrench}>Now, in French</button>
+        <button onClick={this.infrench}>Translate it</button>
       </div>
     );
   }
 
   constructor(props) {
     super(props);
-    this.state = { greeting: 'Hello' };
+    this.state = { greeting: 'Score' };
     this.infrench = this.infrench.bind(this);
   }
 
   infrench() {
-    this.setState({ greeting: 'Bonjour' });
+    this.setState({ greeting: 'Par' });
   }
   
 }
