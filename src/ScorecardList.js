@@ -15,7 +15,7 @@ class ScorecardList extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { greetings: ['Tim', 'Sue', 'Rachael', 'Ben'] };
+    this.state = { greetings: ['Timmy', 'Susie', 'Rachel', 'Benji'] };
     this.addGreeting = this.addGreeting.bind(this);
   }
 
